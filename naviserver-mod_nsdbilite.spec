@@ -15,6 +15,8 @@ BuildRequires:  naviserver-devel
 BuildRequires:  naviserver-mod_nsdbi
 BuildRequires:  naviserver-mod_nsdbi-devel
 BuildRequires:  sqlite3-devel
+Requires:       naviserver-mod_nsdbi
+Requires:       naviserver
 Source0:        %{name}-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 
